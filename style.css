@@ -1,0 +1,100 @@
+:root {
+    --green: #02897a;
+    --lightgreen: #edfffc;
+    --black: #22343d;
+    --blue: #4d8dff;
+    --purple : #740a76;
+    --red : #f03e3d;
+    --gray: #afafaf;
+}
+
+/* Global */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 5000px;
+}
+
+/* Background Color */
+.bg-var-green{
+    background-color: var(--green) !important;
+}
+
+.bg-var-black{
+    background-color: var(--black) !important;
+}
+
+.bg-var-blue{
+    background-color: var(--blue) !important;
+}
+
+.bg-var-purple{
+    background-color: var(--purple) !important;
+}
+
+.bg-var-gray{
+    background-color: var(--gray) !important;
+}
+
+/* Text Color */
+.text-var-green{
+    color: var(--green) !important;
+}
+
+.text-var-blue{
+    color: var(--blue) !important;
+}
+
+.text-var-purple{
+    color: var(--purple) !important;
+}
+
+.text-var-black{
+    color: var(--black) !important;
+}
+
+.text-var-gray{
+    color: var(--gray) !important;
+}
+
+.checked {
+    color: orange;
+}
+
+
+.rounded-25{
+    border-radius: 25px;
+}
+
+.theme-shifter{
+    cursor: pointer
+}
+
+
+.gradien-up-light{
+    background: url(/static/media/gradien-up-light.png);
+}
+
+.gradien-down-light{
+    background: url(/static/media//gradien-down-light.png);
+}
+
+.gradien-up-dark{
+    background: url(/static/media/gradien-up-dark.png);
+}
+
+.gradien-down-down{
+    background: url(/static/media/gradien-down-dark.png);
+}
+
+.pill-text{
+    background-color: #fff;
+    border: 1px solid #fcf8f8;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px #e0dfdf;
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 12px 22px;
+}
